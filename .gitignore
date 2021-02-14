@@ -1,2 +1,9 @@
 ﻿/bin/
 /obj/
+*.dll
+*.pdb
+*.swp
+*.zip
+*.flv
+*.mtl
+*.mdb

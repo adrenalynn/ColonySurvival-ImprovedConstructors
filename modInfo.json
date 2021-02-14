@@ -2,7 +2,7 @@
   {
     "dllpath": "ImprovedConstruction.dll",
     "name": "Expanded Construction",
-    "version": "0.1.0.0",
+    "version": "0.1.0.1",
     "marksgamemodded": true,
     "compatibleversions": [
       "0.8.0"
