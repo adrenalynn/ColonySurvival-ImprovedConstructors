@@ -1,8 +1,8 @@
 # variables
-modname = ImprovedConstructors
+modname = ImprovedConstruction
 zipname = $(modname)-$(version).zip
 dllname = $(modname).dll
-version = $(shell cat modInfo.json | awk '/"version"/ {print $$3}' | head -1 | sed 's/[",]//g')
+version = $(shell cat modInfo.json | awk '/"version"/ {print $$2}' | head -1 | sed 's/[",]//g')
 zip_files_extra = *.json textures
 build_dir = $(modname)
 gamedir = /local/games/Steam/steamapps/common/Colony\ Survival
